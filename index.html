@@ -1,67 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <!DOCTYPE html>
-<html>
-<head>
-    <header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trees of Life Pasting Community Centre</title>
 
-    <img src="TREESOFLIFE NEW Logo.jpeg"
-         alt="Trees of Life Logo"
-         style="width:160px;height:auto;margin-bottom:20px;">
-
-    <h1>Trees of Life Pasting Community Centre</h1>
-
-    <p>Creating hope, protecting children, and empowering communities</p>
-
-    <p><strong>Registered NPO: NPO 324-472 | SARS Approved PBO</strong></p>
-
-</header>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
             margin: 0;
-            line-height: 1.6;
-            background-color: #f7f7f7;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f7f4;
             color: #333;
+            line-height: 1.6;
         }
 
         header {
-            background: #2e7d32;
+            background: linear-gradient(135deg, #2e7d32, #43a047);
             color: white;
             text-align: center;
             padding: 40px 20px;
         }
 
+        header img {
+            width: 150px;
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            background: white;
+            padding: 8px;
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        .status {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
         section {
             background: white;
-            margin: 20px;
-            padding: 25px;
-            border-radius: 10px;
+            margin-bottom: 25px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,.08);
         }
 
         h2 {
             color: #2e7d32;
+            margin-bottom: 15px;
         }
 
         ul {
-            padding-left: 20px;
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 12px;
         }
 
         .button {
             display: inline-block;
             background: #2e7d32;
             color: white;
-            padding: 12px 20px;
             text-decoration: none;
-            border-radius: 5px;
+            padding: 14px 24px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #1b5e20;
+        }
+
+        .partners {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .partner-box {
+            flex: 1;
+            min-width: 220px;
+            background: #eef7ee;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px dashed #2e7d32;
         }
 
         footer {
-            background: #333;
+            background: #222;
             color: white;
             text-align: center;
-            padding: 15px;
+            padding: 25px;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -69,130 +126,151 @@
 <body>
 
 <header>
+
+    <img src="TREESOFLIFE NEW Logo.jpeg" alt="Trees of Life Logo">
+
     <h1>Trees of Life Pasting Community Centre</h1>
-    <p>Creating hope, protecting children, and empowering communities</p>
-    <p><strong>Registered NPO: NPO 324-472 | SARS Approved PBO</strong></p>
+
+    <p class="tagline">
+        Creating hope, protecting children, and empowering communities.
+    </p>
+
+    <div class="status">
+        Registered NPO: NPO 324-472 | SARS Approved PBO
+    </div>
+
 </header>
 
+<main>
 
 <section>
-    <h2>About Us</h2>
-    <p>
-        Trees of Life Pasting Community Centre is a registered non-profit organisation
-        committed to improving the lives of vulnerable children, families, and communities.
-        We provide support through Early Childhood Development, child protection,
-        family support, youth development, and community outreach programmes.
-    </p>
-</section>
+<h2>About Us</h2>
 
+<p>
+Trees of Life Pasting Community Centre is a registered non-profit organisation committed to supporting vulnerable children, strengthening families and empowering communities through quality programmes and partnerships.
+</p>
+
+</section>
 
 <section>
-    <h2>Our Vision</h2>
-    <p>
-        To create safe, nurturing communities where children and families have
-        opportunities to learn, grow, and thrive.
-    </p>
 
-    <h2>Our Mission</h2>
-    <p>
-        To protect vulnerable children, strengthen families, and empower communities
-        through quality programmes, partnerships, and compassionate support.
-    </p>
+<h2>Our Vision</h2>
+
+<p>
+To build safe, caring communities where every child has the opportunity to learn, grow and thrive.
+</p>
+
+<h2 style="margin-top:20px;">Our Mission</h2>
+
+<p>
+To provide Early Childhood Development, child protection, youth development and family support services that improve lives and create lasting change.
+</p>
+
 </section>
-
 
 <section>
-    <h2>Our Programmes</h2>
 
-    <ul>
-        <li>
-            <strong>Early Childhood Development (ECD)</strong><br>
-            Providing safe learning opportunities and early support to young children.
-        </li>
+<h2>Our Programmes</h2>
 
-        <li>
-            <strong>Orphans and Vulnerable Children Support</strong><br>
-            Supporting vulnerable children and families through care, referrals,
-            and community assistance.
-        </li>
+<ul>
 
-        <li>
-            <strong>Youth Development</strong><br>
-            Creating opportunities for youth empowerment, skills development,
-            and personal growth.
-        </li>
+<li><strong>Early Childhood Development (ECD)</strong></li>
 
-        <li>
-            <strong>Family Support</strong><br>
-            Strengthening families through outreach, guidance, and community support.
-        </li>
-    </ul>
+<li><strong>Orphans and Vulnerable Children Support</strong></li>
+
+<li><strong>Youth Development</strong></li>
+
+<li><strong>Family Support</strong></li>
+
+<li><strong>Community Outreach</strong></li>
+
+</ul>
+
 </section>
-
 
 <section>
-    <h2>Our Community Impact</h2>
 
-    <p>
-        Trees of Life currently supports community members through outreach,
-        home visits, volunteer programmes, and assistance to vulnerable families.
-    </p>
+<h2>Community Impact</h2>
 
-    <p>
-        Together with our volunteers and partners, we work towards creating
-        lasting positive change.
-    </p>
+<p>
+Our volunteers work alongside community members to provide education, support services, outreach programmes and opportunities that strengthen vulnerable families.
+</p>
+
 </section>
-
 
 <section>
-    <h2>Partner With Us</h2>
 
-    <p>
-        We welcome partnerships and sponsorship support from individuals,
-        businesses, and organisations who share our vision of improving the
-        lives of children and families.
-    </p>
+<h2>Become a Sponsor</h2>
 
-    <p>Support is needed for:</p>
+<p>
+We welcome partnerships with companies, foundations, government departments and individuals who want to make a lasting difference in the lives of children and families.
+</p>
 
-    <ul>
-        <li>ECD classroom facilities and learning materials</li>
-        <li>Educational resources</li>
-        <li>Food and child support programmes</li>
-        <li>Community outreach activities</li>
-        <li>Youth and family development programmes</li>
-    </ul>
+<a class="button"
+href="mailto:treesoflifepcc@gmail.com?subject=Become%20a%20Sponsor">
+Become a Sponsor
+</a>
 
-    <a class="button" href="mailto:treesoflifepcc@gmail.com">
-        Contact Us To Partner
-    </a>
 </section>
-
 
 <section>
-    <h2>Contact Us</h2>
 
-    <p>
-        Email: treesoflifepcc@gmail.com
-    </p>
+<h2>Download Our Sponsorship Proposal</h2>
 
-    <p>
-        Phone: 063-358-4366 / 065-842-6441
-    </p>
+<p>
+Upload your sponsorship proposal PDF to this repository and update the link below.
+</p>
 
-    <p>
-        Trees of Life Pasting Community Centre
-    </p>
+<a class="button"
+href="Trees-of-Life-Sponsorship-Proposal.pdf">
+Download Sponsorship Proposal
+</a>
+
 </section>
 
+<section>
+
+<h2>Our Partners</h2>
+
+<div class="partners">
+
+<div class="partner-box">
+Your organisation could become our next partner.
+</div>
+
+<div class="partner-box">
+Corporate Sponsors
+</div>
+
+<div class="partner-box">
+Community Partners
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Contact Us</h2>
+
+<p><strong>Email:</strong> treesoflifepcc@gmail.com</p>
+
+<p><strong>Phone:</strong> 063-358-4366 / 065-842-6441</p>
+
+<p><strong>Organisation:</strong> Trees of Life Pasting Community Centre</p>
+
+</section>
+
+</main>
 
 <footer>
-    <p>
-        © 2026 Trees of Life Pasting Community Centre
-    </p>
-</footer>
 
+<p>
+© 2026 Trees of Life Pasting Community Centre. All Rights Reserved.
+</p>
+
+</footer>
 
 </body>
 </html>
